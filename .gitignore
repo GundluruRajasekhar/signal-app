@@ -1,0 +1,15 @@
+# OS clutter
+.DS_Store
+Thumbs.db
+
+# Editor/IDE
+.vscode/
+.idea/
+
+# Local env / secrets (Signal doesn't use a .env, but this guards against
+# ever accidentally committing one if the project grows a backend later)
+.env
+.env.local
+
+# Logs
+*.log
